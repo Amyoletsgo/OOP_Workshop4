@@ -15,7 +15,8 @@ namespace StringTutorial
 
             try
             {
-                
+                string input = Console.ReadLine();
+                EncryptString(input);
             }
             catch ()
             {
