@@ -15,7 +15,7 @@ namespace StringTutorial
 
             try
             {
-                
+                Console.Write("hello world");
             }
             catch ()
             {
