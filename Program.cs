@@ -10,17 +10,19 @@ namespace StringTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a string to encrypt:");
+            Console.WriteLine("Enter a string to encrypt: ");
             
 
             try
             {
+
                 string input = Console.ReadLine();
                 EncryptString(input);
+
             }
-            catch ()
+            catch (Exception)
             {
-                  
+                  Console.WriteLine("Something went wrong. Please try again: ")
             }
             finally
             {
